@@ -102,17 +102,3 @@ DRR2post = raytrace_DRR(CTmat,CTinfo,iso,res,spc,foc2,orig2,...
 % SuperimposeGUI(exactracDRR2pre,DRR2pre);
 % SuperimposeGUI(exactracDRR1post,DRR1post);
 % SuperimposeGUI(exactracDRR2post,DRR2post);
-
-%% perspective projections with ExacTrac variables
-
-beam1Dir = cross(pan1XDir,pan1YDir);
-beam2Dir = cross(pan2XDir,pan2YDir);
-
-pDRR1pre = proj_DRR(CTmat,CTinfo,iso,foc1,pan1XDir,pan1YDir,beam1Dir,...
-    SID1,res,spc,cx1,cy1,muH2O*rhoH2O,thresh);
-pDRR2pre = proj_DRR(CTmat,CTinfo,iso,foc2,pan2XDir,pan2YDir,beam2Dir,...
-    SID2,res,spc,cx2,cy2,muH2O*rhoH2O,thresh);
-pDRR1post = proj_DRR(CTmat,CTinfo,iso,foc1,pan1XDir,pan1YDir,beam1Dir,...
-    SID1,res,spc,cx1,cy1,muH2O*rhoH2O,thresh, tt,rr);
-pDRR2post = proj_DRR(CTmat,CTinfo,iso,foc2,pan2XDir,pan2YDir,beam2Dir,...
-    SID2,res,spc,cx2,cy2,muH2O*rhoH2O,thresh, tt,rr);
