@@ -18,8 +18,6 @@
 
 // Digitally reconstructed radiographs for ExacTrac image-guided system
 // This function is an edited version of ITK's DigitallyReconstructedRadiograph1.cxx
-// See https://github.com/InsightSoftwareConsortium/ITK
-//
 // John Charters
 // 
 // Apache 2.0 license guidelines:
@@ -32,6 +30,8 @@
 // - focal point added as input parameter
 // - direction cosines matrix added as input parameter, which is passed to the filter
 // - DRR origin added as input parameter
+//
+// See https://github.com/InsightSoftwareConsortium/ITK
 
 #include "itkImage.h"
 #include "itkImageFileReader.h"
