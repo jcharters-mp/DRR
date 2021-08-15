@@ -1,6 +1,6 @@
 %% main script for ExacTrac DRR generation
-% John Charters
-% Summer 2021
+% John Charters, M.S.
+% David Geffen School of Medicine at UCLA
 
 %{
 References
