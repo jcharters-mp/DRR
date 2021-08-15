@@ -1,6 +1,6 @@
 %% DRR generator parameters based on assumed linac geometry
-% John Charters
-% Summer 2021
+% John Charters, M.S.
+% David Geffen School of Medicine at UCLA
 
 %{
 All measurements are in IEC coordinates, and linac isocenter = [0;0;0]
