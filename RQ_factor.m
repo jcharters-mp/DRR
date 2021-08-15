@@ -1,9 +1,9 @@
 %% RQ factorization
-% John Charters
-% Spring 2021
+% John Charters, M.S.
+% David Geffen School of Medicine at UCLA
 
 %{
-Any real square matrix may be decomposed as A = RQ.
+Any real square matrix may be decomposed as A = RQ
 
 Reference
 "QR decomposition" - Wikipedia
