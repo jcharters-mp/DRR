@@ -1,6 +1,6 @@
 %% ITK rendering
-% John Charters
-% Spring 2021
+% John Charters, M.S.
+% David Geffen School of Medicine at UCLA
 
 %% load CT volume
 
