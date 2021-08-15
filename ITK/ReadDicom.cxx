@@ -24,6 +24,8 @@
 // License and Notice are provided together with this function
 // List of changes made to DicomSeriesReadImageWrite2.cxx
 // - many original comments removed for brevity
+//
+// See https://github.com/InsightSoftwareConsortium/ITK
 
 #include "itkImage.h"
 #include "itkGDCMImageIO.h"
