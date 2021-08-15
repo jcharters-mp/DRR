@@ -1,5 +1,5 @@
 # DRR
-Stereoscopic DRR generator
+Stereoscopic DRR generator for ExacTrac image-guided system
 
 **ITK rendering requirements:**  
 Download ITK and compile with CMake.  
