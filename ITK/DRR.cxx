@@ -1,3 +1,36 @@
+/*=========================================================================
+ *
+ *  Copyright NumFOCUS
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0.txt
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ *=========================================================================*/
+
+// Digitally reconstructed radiographs for ExacTrac image-guided system
+// This function is an edited version of ITK's DigitallyReconstructedRadiograph1.cxx
+// John Charters
+// 
+// Apache 2.0 license guidelines:
+// License and Notice are provided together with this function
+// List of changes made to DigitallyReconstructedRadiograph1.cxx:
+// - default DRR volume removed for brevity
+// - many original comments removed for brevity
+// - RTPlan isocenter added as input parameter, which shifts imOrigin
+// - center InputPointType is set to zero
+// - focal point added as input parameter
+// - direction cosines matrix added as input parameter, which is passed to the filter
+// - DRR origin added as input parameter
+
 #include "itkImage.h"
 #include "itkImageFileReader.h"
 #include "itkImageFileWriter.h"
@@ -11,7 +44,7 @@
 void usage()
 {
   std::cerr << "\n";
-  std::cerr << "Digitally reconstructed radiographs for Novalis ExacTrac \n";
+  std::cerr << "Digitally reconstructed radiographs for ExacTrac image-guided system \n";
   std::cerr << "This function is an edited version of ITK's DigitallyReconstructedRadiograph1.cxx \n";
   std::cerr << "John Charters \n\n";
   std::cerr << "Usage: .\\DRR <options> [input] \n\n";
