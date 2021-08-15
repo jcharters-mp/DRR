@@ -6,8 +6,8 @@
 References
 ExacTrac 6.2 - Clinical User Guide
 "2D/3D image fusion for accurate target localization..." by Jin et al.
-"Fast calculation of the exact radiological path for a
-three-dimensional CT array" by Siddon
+"Fast calculation of the exact radiological path for a three-dimensional CT
+array" by Siddon
 "A fast ray-tracing technique for TCT and ECT studies" by Han et al.
 %}
 
