@@ -1,6 +1,6 @@
 %% load 3D CT
-% John Charters
-% Summer 2021
+% John Charters, M.S.
+% David Geffen School of Medicine at UCLA
 
 %{
 Input
