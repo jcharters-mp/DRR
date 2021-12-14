@@ -107,18 +107,18 @@ tXpre = 0; % lateral [mm]
 tYpre = 0; % -ve vertical [mm]
 tZpre = 0; % longitudinal [mm]
 
-tXpost = 0.31; % lateral [mm]
-tYpost = -0.31; % -ve vertical [mm]
-tZpost = 0.35; % longitudinal [mm]
+tXpost = 0; % lateral [mm]
+tYpost = 0; % -ve vertical [mm]
+tZpost = 0; % longitudinal [mm]
 
 % X-ray rotation corrections (HFS)
-rXpre = 0.1; % lateral [deg]
-rYpre = -1.9; % vertical [deg]
-rZpre = -0.1; % longitudinal [deg]
+rXpre = 0; % lateral [deg]
+rYpre = 0; % vertical [deg]
+rZpre = 0; % longitudinal [deg]
 
-rXpost = 0.5; % lateral [deg]
-rYpost = -1.7; % vertical [deg]
-rZpost = -0.8; % longitudinal [deg]
+rXpost = 0; % lateral [deg]
+rYpost = 0; % vertical [deg]
+rZpost = 0; % longitudinal [deg]
 
 %% generate DRRs
 
