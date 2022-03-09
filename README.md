@@ -12,7 +12,7 @@ This repository provides scripts for replicating ExacTrac DRRs of patients in a 
 If you use or reference this repository for research purposes, please cite our publication as
 
 ```
-Charters, JA, Bertram, P, Lamb, JM. Offline generator for digitally reconstructed radiographs of a commercial stereoscopic radiotherapy image-guidance system. J Appl Clin Med Phys. 2022;e13492. https://doi.org/10.1002/acm2.13492
+Charters, JA, Bertram, P, Lamb, JM. Offline generator for digitally reconstructed radiographs of a commercial stereoscopic radiotherapy image-guidance system. J Appl Clin Med Phys. 2022; 23:e13492. https://doi.org/10.1002/acm2.13492
 ```
 BibTeX entry:
 ```
@@ -21,6 +21,8 @@ author = {Charters, John A. and Bertram, Pascal and Lamb, James M.},
 title = {Offline generator for digitally reconstructed radiographs of a commercial stereoscopic radiotherapy image-guidance system},
 journal = {Journal of Applied Clinical Medical Physics},
 year = {2022},
+volume = {23},
+number = {3},
 pages = {e13492},
 keywords = {DRR, ExacTrac, IGRT, ITK, projective geometry},
 doi = {https://doi.org/10.1002/acm2.13492},
